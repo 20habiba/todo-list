@@ -1,0 +1,60 @@
+    body{
+    text-align: center;
+    background-color: rgb(50, 30, 160);
+    }
+    #randoms{
+    margin-top: 10px;
+    }
+    #changeMe{
+    color: white;
+        background-color:rgb(50, 30, 160) ;   /* أحمر */
+        border: none;
+        border-radius: 10%; 
+        margin-bottom: 10px;
+    }
+    .container{
+    margin-top: 150px;
+    background-color: black;
+    width: 50%;
+    color: white;
+    }
+    #todoList{
+    margin-top: 10px;
+}
+
+    ol {
+    padding-left: 20px; 
+
+    list-style-position: inside;
+
+    }
+
+    li {
+    margin: 5px 0; 
+
+
+    }
+
+    .delete-btn:hover {
+    background-color: #bb2d3b;   /* أحمر أغمق عند الـ hover */
+    transform: scale(1.1);       /* تكبير بسيط عند المرور */
+    }
+
+    .done {
+    text-decoration: line-through;
+    color: gray;
+    }
+    .delete-btn {
+    background-color: #dc3545;   /* أحمر */
+    border: none;
+    border-radius: 50%;          /* يخلي الزرار مدور */
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    transition: 0.2s;
+    }
